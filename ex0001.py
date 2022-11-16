@@ -17,7 +17,7 @@ lista.append(gabarito)
 
 i = 0
 # Cadastro dos alunos e registro das respostas
-while i < 2:
+while i < 30:
   e = 1 # Declarei o contador dentro do lado para que toda vez que repetir o contador volte ao valor inicial
   alunos = []
   alunos.append(input("Digite o NOME do ALUNO : "))
@@ -56,7 +56,7 @@ print("ALUNOS CLASSIFICADOS")
 while i < len(classificados):
   print(classificados[i])
   i = i + 1
-  
+
 # Imprimindo o NOME dos Alunos que foram DESCLASSIFICADOS
 i = 0
 print("ALUNOS DESCLASSIFICADOS")
