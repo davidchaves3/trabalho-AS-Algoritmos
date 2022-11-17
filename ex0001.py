@@ -1,3 +1,7 @@
+# Trabalho de Algoritmos
+# GRUPO - Maevy Dias; Arthur Almeida; David Chaves
+
+
 i = 1 # O contador foi inicializado em 1 para acompanha o número das questão que vai ser mostrado na tela
 e = 1 # O contador foi inicializado em 1 para acompanha o número das questão que vai ser mostrado na tela
 cont = 0
