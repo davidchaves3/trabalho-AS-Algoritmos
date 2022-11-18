@@ -16,12 +16,10 @@ while i < 11:
     print("=================================================================================\n")
     gabarito.append(input("Digite o Nome da Disciplina: "))
     print("==================================================================================\n")
-  print("==================================================================================\n")
   gabarito.append(input(f"Digite a resposta da QUESTÃO {i} ==> "))
-  print("==================================================================================\n")
   i = i + 1
 lista.append(gabarito)
-
+print("==================================================================================\n")
 i = 0
 # Cadastro dos alunos e registro das respostas
 print("=================================== RESPOSTAS ===================================")
@@ -33,10 +31,9 @@ while i < 30:
   print("=================================================================================\n")
   #Laço de repetição para registrar a respostas da Prova 
   while e < 11:
-    print("=================================================================================\n")
     alunos.append(input(f"DIGITE A RESPOSTA DA QUESTÃO {e} ==> "))
-    print("=================================================================================\n")
     e = e + 1
+  print("==================================================================================\n")
   # Zerando o contador e a variável nota para que toda vez que iniciar o laço retorne ao valor 0
   nota = 0
   cont = 0
@@ -58,21 +55,22 @@ while i < 30:
 
 # Imprimindo o gabarito da prova e a resposta de cada ALUNO
 i = 0
+print("==================================================================================\n")
 while i < len(lista):
-  print(f"{lista[i]}")
+  print(lista[i])
   i = i + 1
 
 # Imprimindo o NOME dos Alunos que foram CLASSIFICADOS
 i = 0
-print("================================= ALUNOS CLASSIFICADOS =================================")
+print("================================ ALUNOS CLASSIFICADOS =================================")
 while i < len(classificados):
   print(classificados[i])
   i = i + 1
 
 # Imprimindo o NOME dos Alunos que foram DESCLASSIFICADOS
 i = 0
-print("================================= ALUNOS DESCLASSIFICADOS =================================")
+print("================================ ALUNOS DESCLASSIFICADOS ================================")
 while i < len(desclassificados):
   print(desclassificados[i])
   i = i + 1
-print("===================================== FINALIZADO ===========================================")
+print("==================================== FINALIZADO ==========================================")
