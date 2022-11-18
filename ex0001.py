@@ -19,7 +19,7 @@ while i < 11:
   gabarito.append(input(f"Digite a resposta da QUESTÃO {i} ==> "))
   i = i + 1
 lista.append(gabarito)
-print("==================================================================================\n")
+print("==================================================================================")
 i = 0
 # Cadastro dos alunos e registro das respostas
 print("=================================== RESPOSTAS ===================================")
