@@ -34,7 +34,7 @@ while i < 30:
   cont = 0
   # Verificação dos acertos de cada Aluno na prova
   while cont < len(alunos):
-    if alunos[cont] in gabarito:
+    if alunos[cont] in gabarito[cont]:
       nota = nota + 1
     cont = cont + 1
   # Verifando se o aluno foi classificado ou desclassificado
