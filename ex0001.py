@@ -39,14 +39,15 @@ while i < 30:
   cont = 0
   # Verificação dos acertos de cada Aluno na prova
   while cont < len(alunos):
-    if alunos[cont] == gabarito[cont]:
+    # Se o item 0 for igual ao Item zero da lista do gabarito o alunos acertou a questão
+    if alunos[cont] == gabarito[cont]: 
       nota = nota + 1
     cont = cont + 1
   # Verifando se o aluno foi classificado ou desclassificado
   if nota >= 5:
     classificados.append(alunos[0])
     # Se ele tiver a nota maior ou igual a 5 seu nome vai ser ADD na lista Classificados
-  elif nota < 5:
+  else:
     # Caso ele tire uma NOTA menor que 5 o nome vai ser ADD na lista Desclassificados
     desclassificados.append(alunos[0])
   # Adicionando o NOME e a resposta dos Alunos na LISTA PRINCIPAL
